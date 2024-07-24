@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* background-color: #040404; */
+  background-image: url("./assets/background-bg.png");
+  /* background-size: cover; */
+  background-repeat: repeat; /* Do not repeat the image */
+  /* background-position: center;  */
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9); /* Adjust opacity here */
+}
+hr {
+  border: 1px solid rgb(104, 15, 15);
+}
+
+.absolute_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px !important;
+  max-width: 400px;
+}
+
+/* styles.css */
+.bold-shadow {
+  font-weight: 1000;
+  text-shadow: 1px 1px 3px rgb(209, 208, 208); /* Adds a shadow to the text */
+}
+
+h1 {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+li {
+  color: rgb(209, 209, 209);
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p,
+h3 {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(209, 209, 209);
+}
